@@ -1,0 +1,8 @@
+ What happens when you initialize a repository? Why do you need to do it?
+
+.git directory is being created, changing the prefered directory into repository, though no commit is being made. You've got to make the first commit yourself.
+
+ How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It's a medium stage. There doesn't have to be all of files from  directory. It's a preparational stage.
+It offers better control. 
