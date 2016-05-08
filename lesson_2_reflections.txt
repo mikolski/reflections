@@ -6,3 +6,7 @@
 
 It's a medium stage. There doesn't have to be all of files from  directory. It's a preparational stage.
 It offers better control. 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+I may compare staging area to working directory...
