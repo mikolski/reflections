@@ -15,4 +15,6 @@ What are some situations when branches would be helpful in keeping your history 
 
 I can imagine tons of situations like that. Basically trying new stuff, changing direction in which you would like to develop your program, etc. You can probably work on two different directions almost simultaneously using branches.
 
- 
+How do the diagrams help you visualize the branch structure?
+
+It's much easier to find yourself in situation, it's getting obvious what is parent of what, etc.
