@@ -23,3 +23,7 @@ What is the result of merging two branches together? Why do we represent it in t
 
 The result is that all of the changes introduced in those two branches are introduced together in new commit. To know exactly what add and what delete git compares tips of two branches with the last mutual commit.
 We represent it like that because there is one main branch (which is checked out in the moment of merging) and the other one is merged with the main one.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging is faster, but when you do it manually you have control on what is kept and what deleted.
