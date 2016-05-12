@@ -1,29 +1,37 @@
- What happens when you initialize a repository? Why do you need to do it?
+What happens when you initialize a repository? Why do you need to do it?
 
-.git directory is being created, changing the prefered directory into repository, though no commit is being made. You've got to make the first commit yourself.
+	.git directory is being created, changing the chosen directory into working directory, though no commit is being made. You've got to make the first commit yourself.
 
- How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-It's a medium stage. There doesn't have to be all of files from  directory. It's a preparational stage.
-It offers better control. 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	It's a medium stage. The new version of file is saved (not like in working directory, where you can still work on your files) but not permanently (like in repository).
+	
+	It offers better control. 
+
 
 How can you use the staging area to make sure you have one commit per logical change?
 
-I may compare staging area to working directory...
+	Stage files after each logical change. Check status of files and if in doubt compare staging are to the working directory. 
+
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-I can imagine tons of situations like that. Basically trying new stuff, changing direction in which you would like to develop your program, etc. You can probably work on two different directions almost simultaneously using branches.
+	Basically trying new stuff, changing direction in which you would like to develop your program, etc. You can work on two or more different versions almost simultaneously using branches.
+
 
 How do the diagrams help you visualize the branch structure?
 
-It's much easier to find yourself in situation, it's getting obvious what is parent of what, etc.
+	It's much easier to find yourself in situation, it's getting obvious what is parent of what, etc.
+
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-The result is that all of the changes introduced in those two branches are introduced together in new commit. To know exactly what add and what delete git compares tips of two branches with the last mutual commit.
-We represent it like that because there is one main branch (which is checked out in the moment of merging) and the other one is merged with the main one.
+	The result is that all of the changes introduced in those two branches are introduced together in new commit. To know exactly what add and what delete git compares tips of two branches with the last mutual commit.
+	
+	We represent it like that because there is one main branch (which is checked out in the moment of merging) and the other one (or several) is merged with the main one.
+
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
-Automatic merging is faster, but when you do it manually you have control on what is kept and what deleted.
+	Automatic merging is faster, but when you do it manually you have control on what is kept and what deleted.

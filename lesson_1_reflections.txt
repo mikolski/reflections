@@ -1,72 +1,37 @@
-  How did viewing a diff between two versions of a file help you see the bug that was introduced?
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
 
-
-
-It showed me exact lines which were different in two files. As I knew that the bug was just in one file there was much less
-
-content to search through so I could do it faster.
-
-
-
+	It showed me exact lines which were different in two files. As I knew that the bug was just in one file there was much less content to search through so I could do it faster.
 
 
 How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 
+	I have access to all versions so I could easly restore working version if new one doesn't work. I can go back to very old version if I notice that have been following wrong path and swith to another. Also if working in a team, we've got access to all versions so can easly compare changes made.
 
 
-I have access to all versions so I could easly restore working version if new
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
 
-one doesn't work. I can go back to very old version if I notice that has been
+	Pros:   -It's fairly easy to maintain logical structure 		of your version control
 
-following wrong path and swith to another. Also if working in a team, we've got access to all versions so can easly compare changes made.
+        	-Your  versions arent messy and there's not too many   of them
 
+	Cons:   -If you do not have a habbit of making commits, 		you can easy go to far and lost too much
 
-
- What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
-
-
-
-Pros:   -It's fairly easy to maintain logical structure of your version control
-
-        -Your  versions arent messy and there's not too many of them
-
-Cons:   -If you do not have a habbit of making commits, you can easy go to far
-
-        and lost too much.
-
-        -If you worring too much you may end with a lot of junk and lost time
-
-        spent on making commits
+        	-If you worrying too much you may end with a lot of junk and lost time spent on making commits
 
 
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+	Git was design to work with code, so if the logical change of code requires changing two or more files, it's crucial to be able to do it in one commit.
 
 
+How can you use the commands git log and git diff to view the history of files?
 
- Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	First you've got to find version of the file you are interesed in using git log (check commit message), then compare previous one with one you just found (using git diff) to see what was introduced and what deleted.
 
+How might using version control make you more confident to make changes that could break something?
 
+	There's no reason to be affraid of doing them as long as we have safe version of code, because we can easily get back to it in case introducing a bug in newer version.
 
-Git was design for work on code, which may be affecting several files, that's
+Now that you have your workspace set up, what do you want to try using Git for?
 
-why it's very helpful to do not have to worry about which file to do version
-
-safe, bacause it's happening automaticaly.
-
-
-
- How can you use the commands git log and git diff to view the history of files?
-
-
-
-First you've got to find version of the file you are interesed in using git log
-
-(check commit message), than compare previous one with one you just found to see what was introduced and what deleted.
-
- How might using version control make you more confident to make changes that could break something?
-
-There's no reason to be affraid of doing them as long as we have safe version of code, because we can easily get back to it in case introducing a bug in newer version.
-
- Now that you have your workspace set up, what do you want to try using Git for?
-
-There's no particular things, I would like to get to know as much as I could to fill 
-comfortable using it for general purposes
+	There's no particular things, I would like to get to know as much as I could to feel comfortable using it for general purposes. 
